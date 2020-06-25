@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-
+//***initialise static number outside of header file:
 unsigned int Object::_Obj_count = 0;
 
 //define object constructor #1
@@ -25,7 +25,7 @@ Object::~Object()
     }
 }
 
-
+//Object Printing info here;
 void Object::PrintBasicInfo() 
 {
     std::cout << "[Printing Object Info] -- Object ID: " << _obj_id << std::endl;

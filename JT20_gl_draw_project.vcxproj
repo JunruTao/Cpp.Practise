@@ -101,9 +101,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="source\glwindow.cpp" />
+    <ClCompile Include="source\point_obj.cpp" />
     <ClCompile Include="source\uni_objects.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="header\point_obj.h" />
     <ClInclude Include="header\uni_objects.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

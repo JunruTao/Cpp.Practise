@@ -21,9 +21,15 @@
     <ClCompile Include="source\uni_objects.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="source\point_obj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header\uni_objects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\point_obj.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
