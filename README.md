@@ -1,2 +1,8 @@
-# JT20_gl_draw_project
-Learning c++ and openGL/glew/glfw
+# JT20_OOP_test
+Learning c++ and practice
+current learning subject:
+OOP and Inheritance
+manipulating virtual functions
+smart pointers
+multi-threading
+current 
