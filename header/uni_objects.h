@@ -15,6 +15,8 @@ class Object{
     
     //common object functions
     void SetName(std::string name) {_name = name;} //setter
+
+    void PrintBasicInfo();//Printing object information
     std::string GetName() const{ return _name;} // getter ->name
     unsigned int GetObjectCount() const{ return _Obj_count;}//getter ->count
 
