@@ -166,7 +166,7 @@ int main()
 	}
 	for (auto& f : furs1) 
 	{
-		f.get();
+		f.wait();
 	}
 	timer.CheckIn();
 
@@ -179,7 +179,7 @@ int main()
 	}
 	for (auto& f : furs2)
 	{
-		f.get();
+		f.wait();
 	}
 	timer.CheckIn();
 
@@ -193,7 +193,7 @@ int main()
 	}
 	for (auto& f : furs3)
 	{
-		f.get();
+		f.wait();
 	}
 	timer.CheckIn();
 	timer.PrintAllCheckPoints();

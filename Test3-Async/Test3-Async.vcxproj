@@ -152,6 +152,9 @@
   <ItemGroup>
     <ClInclude Include="timer.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="outputlog.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
